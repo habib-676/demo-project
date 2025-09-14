@@ -9,10 +9,8 @@ function App() {
       <nav>
         <Nav />
         <Banner />
-      </nav>
-      <main>
-        <According></According>
-      </main>
+           <According></According>
+      </nav> 
     </>
   );
 }
