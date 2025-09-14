@@ -4,7 +4,7 @@ import Banner from "./components/banner-components/Banner";
 import Carousel from "./components/Carousel/Carousel";
 import Nav from "./components/Nav";
 import Footer from "./components/shared/Footer";
-
+import HowItWorks from "./components/HowItWorks/HowItWorks";
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
         <Banner />
       </nav>
       <div>
+        <HowItWorks/>
         <According></According>
         <Carousel></Carousel>
       </div>
