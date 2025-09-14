@@ -1,9 +1,12 @@
 import "./App.css";
+import Nav from "./components/Nav";
 
 function App() {
   return (
     <>
-      <h3>Hello world</h3>
+      <nav>
+        <Nav />
+      </nav>
     </>
   );
 }
