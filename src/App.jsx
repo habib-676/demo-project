@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/banner-components/Banner";
 import Nav from "./components/Nav";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <nav>
         <Nav />
+        <Banner />
       </nav>
     </>
   );
