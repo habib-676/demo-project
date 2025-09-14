@@ -1,5 +1,5 @@
 import "./App.css";
-import According from "./components/According/According";
+import According from "./components/Accodring/According";
 import Banner from "./components/banner-components/Banner";
 import Nav from "./components/Nav";
 import Footer from "./components/shared/Footer";
@@ -11,15 +11,12 @@ function App() {
         <Nav />
         <Banner />
       </nav>
-
-      <main>
-        <According />
-      </main>
-
+      <div>
+        <According></According>
+      </div>
       <Footer />
     </>
   );
 }
 
 export default App;
-
